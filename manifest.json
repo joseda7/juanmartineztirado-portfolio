@@ -1,0 +1,27 @@
+{
+    "name": "Juan Martinez Tirado",
+    "short_name": "juanmartineztirado",
+    "icons": [
+        {
+            "src": "assets/img/icons-192.png",
+            "type": "image/png",
+            "sizes": "192x192"
+        },
+        {
+            "src": "assets/img/icons-192.png",
+            "type": "image/png",
+            "sizes": "192x192",
+            "purpose": "maskable"
+        },
+        {
+            "src": "assets/img/icons-512.png",
+            "type": "image/png",
+            "sizes": "512x512"
+        }
+    ],
+    "start_url": "/",
+    "display": "standalone",
+    "orientation": "portrait",
+    "background_color": "#F3F3E9",
+    "theme_color": "#F3F3E9" 
+}

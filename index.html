@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Ilustración de naturaleza, botánica, infografía, divulgación científica. Ilustrador y diseñador: Juan Martínez Tirado">
+    <meta name="theme-color" content="#F3F3E9"/>
+    <title> Juan Martínez Tirado </title>
+    <link rel="stylesheet" href="css/main.css?v=5">
+    <link rel="shortcut icon" href="assets/img/favicon.ico" type="image/x-icon">
+    <link rel="manifest" href="/manifest.json">
+    <link rel="stylesheet" type="text/css" href="addtohomescreen.css">
+    <link rel="apple-touch-icon" href="assets/img/icons-192.png"> 
+</head>
+<body>
+    <main>
+        <div class="j-wpp">
+            <div class="j-wpp__bkg">
+                <div class="j-wpp__bkg-cont">
+                    <img src="assets/img/trifolium-repens-l.png" alt="Imagen planta Trifolium Repens L">
+                    <p> <span></span> Trifolium Repens L.</p>
+                </div> 
+            </div>
+            <div class="j-wpp__cont">
+                <h1 class="j-wpp__cont-title">Juan Martínez Tirado</h1>
+                <span class="j-wpp__cont-subtitle"> Ilustrador y diseñador</span>
+                <!-- <div class="j-separator"></div> -->
+                <ul class="j-wpp__cont-list">
+                    <li><p>Ilustración de naturaleza</p></li>
+                    <li><p>Ilustración botánica</p></li>
+                    <li><p>Infografía</p></li>
+                    <li><p>Divulgación científica</p></li>
+                </ul>
+                <p class="j-wpp__cont-txt">
+                    Soy ilustrador y diseñador gráfico independiente desde 2016. Tengo experiencia en ilustración realista, infografía e ilustración científica de animales, plantas y escenarios. He trabajado en proyectos relacionados con biodiversidad, divulgación de la ciencia, conservación e investigación agropecuaria. Estos proyectos se han materializado en libros, revistas, artículos académicos, exposiciones museográficas, sitios web y aplicativos móviles.
+                </p>
+                <a class="j-wpp__btn-primary" href="/juan-martinez-tirado-portafolio.pdf" target="_blank" rel="noreferrer">
+                    Conoce mi portafolio aquí
+                </a>
+                <p class="j-wpp__cont-txt">
+                    Si tienes un proyecto en mente en el que podamos trabajar juntos, escríbeme:
+                </p>
+                <div class="j-wpp__cont-email">
+                    <a href="mailto:martinezilustracion@gmail.com?Subject=Contacto%20Web%20Trabajemos%20Juntos">
+                        <span><img src="assets/img/icono-mail.png" alt="Email icon"></span>
+                        martinezilustracion@gmail.com
+                    </a>
+                </div>
+                <div class="j-separator"></div>
+                <div class="j-wpp__cont-social">
+                    <a href="https://www.instagram.com/juanmartineztirado/" target="_blank" rel="noreferrer">
+                        <img src="assets/img/icono-instagram.png" alt="link Instagram">
+                    </a>
+                    <a href="https://www.behance.net/juanmartineztirado" target="_blank" rel="noreferrer">
+                        <img src="assets/img/icono-behance.png" alt="link Behance">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </main>
+    <script>
+        if('serviceWorker' in navigator) {
+            window.addEventListener('load', ()=> {
+                navigator.serviceWorker.register('/service-worker.js')
+                .then(reg => {
+                    console.log('SW registered! ', reg);
+                }). catch( err => {
+                    console.log('SW registration failed ', err)
+                })
+            })
+        }
+    </script>
+</body>
+</html>
